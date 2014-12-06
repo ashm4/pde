@@ -5,6 +5,8 @@ void setup() {
 void draw() {
   background(200);
   stroke(0);          
+  fill(80, 65, 0);
+  ellipse(460, 350, 550, 300);
   fill(#F0ECC6);
   ellipse(460, 500, 500, 500);
   line(400, 440, 525, 440);
@@ -21,4 +23,5 @@ void draw() {
   if(mousePressed) {
     ellipse(475, 625, 200, 50);
   }
+
 }
